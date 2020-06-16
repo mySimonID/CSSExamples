@@ -1,0 +1,214 @@
+body {
+  font-size: 1.0rem;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  font-weight: 300;
+  color: #e9a402;
+  line-height: 1.5rem;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  margin: 0px;
+  display: inline;
+  color: #333;
+  line-height: 2.5rem;
+  border-bottom: 2px solid #e9a402;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.productImage {
+  width: 30%;
+}
+
+@media (max-width: 900px)
+{
+  .productImage {
+    width: 40%;
+  }
+}
+
+/** SUPPLIER CARDS **/
+.cardRow {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 16px;
+  font-size: 1rem;
+  background-color: #f8f8f8;
+  margin-bottom: 24px;
+}
+
+.cardOutside {
+  padding-left: 3px;
+  padding-right: 10px;
+}
+
+.cardBlock {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding-bottom: 50px;
+  padding-top: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.cardBlock img {
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  width: auto;
+}
+
+.cardText {
+  font-size: 12px;
+  ;
+  line-height: 16px;
+  font-family: "Telesans Text Regular", Arial, sans-serif;
+  color: #222;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  height: 20px;
+}
+
+/** ARTICLE **/
+.articleContainer {
+  width: 100%;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  border-bottom: 2px solid #cccc;
+}
+
+.articleContent {
+  width: 90%;
+  /* max-width: 500px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.articalPrice {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.articleImage {
+  margin-bottom: 20px;
+}
+
+.articleText {
+  text-align: left;
+}
+
+.articleText p {
+  font-size: 0.9rem;
+}
+
+.articleBuyNow {}
+
+/** SIDEBAR **/
+.sideBarContainer {
+  width: 100%;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.sideBarContent {
+  width: 75%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sideBarHeading {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: left;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  padding-bottom: 16px;
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  color: rgba(34, 34, 34, 0.7);
+  border-bottom: 1px solid #cecece;
+}
+
+ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+  display: inline-block;
+  flex-wrap: nowrap;
+  margin: 0;
+  margin-left: 0px;
+  padding: 0;
+  width: 100%;
+}
+
+ol li {
+  counter-increment: my-awesome-counter;
+  display: flex;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border-bottom: 1px solid #cecece;
+}
+
+ol li::before {
+  content: counter(my-awesome-counter);
+  font-weight: 300;
+  color: #e9a402;
+  font-size: 5rem;
+  margin-right: 0.5rem;
+  line-height: 1;
+}
+
+.sideBarList {
+  margin-left: 25px;
+}
+
+.sideBarList h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  text-align: left;
+  margin-top: 12px;
+  color: #767676;
+}
+
+.sideBarList h4 {
+  font-size: 1.0rem;
+  font-weight: 200;
+  text-align: left;
+  line-height: 1.6rem;
+  color: #888;
+  padding-top: 0px;
+  width: 100%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  min-height: 90px;
+}
